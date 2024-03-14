@@ -1,0 +1,194 @@
+body{
+background-color: white;
+color:black;
+font-family: 'poppins';
+max-width: 1200px;
+margin: 0 auto;
+padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aguia{width: 18%;
+position: relative;
+display: inline-block;
+}
+
+#title{
+flex-direction: column;
+line-height: 10px;
+}
+
+li{
+display: inline-block;
+margin: 20px;
+}
+
+
+a{color: black;}
+
+a:hover{
+color: aquamarine;
+transition: 0,3s all;
+}
+
+#inscreva-se-btn{
+border: 2px solid rgb(96, 243, 194) ;
+padding: 10px;
+border-radius: 16px;
+}
+
+#inscreva-se-btn:hover{
+
+    background-color: aquamarine ;
+    color:black ;
+}   
+
+h1{
+font-weight: 200 ;
+display: inline-block;
+}
+
+main{
+display: flex;
+flex-direction: row;
+}
+
+h2{
+font-size: 56px;
+line-height: 10px;
+}
+
+span{color: aquamarine;}
+
+p{
+line-height: 20px;
+max-width: 500px;
+}
+
+img{width: 580px;}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]{
+height: 42px;
+width: 50%;
+background-color: rgb(173, 250, 224);
+color: rgb(0, 0, 0);
+font-weight:bold ;
+}
+
+
+form [type="submit"]:hover{cursor: pointer;}
+
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(222, 232, 240);
+    font-size: 15px;
+}
+
+.oscursos{
+    display:flex;
+    background-color: rgba(173, 250, 224, .7);
+    width: 900px;
+    height: 300px;
+    align-items: center;
+    margin: 20px;
+}
+
+h3{font-size: 38px;}
+
+.cursos{
+width: 20%;
+display: inline-block;
+height:250px ;
+}
+
+.osidosos{
+    display:flex;
+    background-color: rgba(158, 137, 182, 0.7);
+    width: 900px;
+    height: 300px;
+    align-items: center;
+    margin: 20px;
+   margin-bottom:110px ;
+
+}
+
+.casalidosos{
+    width: 280px;
+    height: 250px;
+ }
+
+.roblox{
+width: 190px;
+height: 200px;
+}
+
+.golpe{
+    display:flex;
+    background-color: rgba(173, 250, 224, .7);
+    width: 900px;
+    height: 300px;
+    align-items: center;
+    margin: 20px;
+ }
+
+
+.capcloroquina{
+    width: 230px;
+    height: 200px; 
+}
+
+.havan{
+    width: 190px;
+    height: 200px;
+}
+
+.sobreagente{display:flex}
+
+.sobre{
+font-size: 20px;
+line-height: 60px;
+}
+
+.aguiagrande{display: inline-block;}
+
+.professordocurso{margin-left: 60px;}
+
+.assinar{
+    margin-top: 20px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(102, 206, 175);
+    font-size: 15px;
+    width: 600px;
+    justify-content: center;
+}
+
+.final{
+justify-content: center;
+display: flex;
+}
+
+.assinar{ font-weight: 900;}
+
+
+
+
+
